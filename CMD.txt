@@ -1,0 +1,9 @@
+pip install virtualenv
+virtualenv myenv
+myenv\scripts\activate
+
+pip install django
+django-admin startproject backend .
+py manage.py startapp base
+
+pip install djangorestframework
